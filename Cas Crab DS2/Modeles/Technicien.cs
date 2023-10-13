@@ -14,6 +14,7 @@ namespace Cas_Crab_DS2.Modeles
         private int _Matricule;
         private string _Nom;
         private string _PreNom;
+        List<Visite> _LesVisites;
 
         #endregion
 
@@ -23,12 +24,18 @@ namespace Cas_Crab_DS2.Modeles
             _Matricule = Matricule;
             _Nom = Nom;
             _PreNom = PreNom;
+            _LesVisites = new List<Visite>();
 
             Technicien.CollClasse.Add(this);
         }
         #endregion
 
         #region Getters/Setters
+        public int Matricule { get => _Matricule; set => _Matricule = value; }
+        public string Nom { get => _Nom; set => _Nom = value; }
+        public string PreNom { get => _PreNom; set => _PreNom = value; }
+        public List<Visite> LesVisites { get => _LesVisites; }
+
         #endregion
 
         #region Methodes
