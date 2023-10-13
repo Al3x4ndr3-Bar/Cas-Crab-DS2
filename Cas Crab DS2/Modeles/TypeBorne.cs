@@ -19,12 +19,22 @@ namespace Cas_Crab_DS2.Modeles
         #endregion
 
         #region Constructeur
-        #endregion
+        public TypeBorne(int CodeTypeBorne, TimeSpan DureeRevision, int NbJoursEntreRevision, int NbUnitesEntreRevision)
+        {
+            _CodeTypeBorne = CodeTypeBorne;
+            _DureeRevision = DureeRevision;
+            _NbJoursEntreRevision = NbJoursEntreRevision;
+            _NbUnitesEntreRevision = NbUnitesEntreRevision;
 
-        #region Getters/Setters
-        #endregion
+            TypeBorne.CollClasse.Add(this);
 
-        #region Methodes
-        #endregion
+            #endregion
+
+            #region Getters/Setters
+            #endregion
+
+            #region Methodes
+            #endregion
+        }
     }
 }

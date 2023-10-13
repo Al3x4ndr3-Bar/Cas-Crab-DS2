@@ -18,12 +18,20 @@ namespace Cas_Crab_DS2
         #endregion
 
         #region Constructeur
-        #endregion
+        public Station(int IdStation, string LibelleEmplacement)
+        {
+            _idStation = IdStation;
+            _LibelleEmplacement = LibelleEmplacement;
 
-        #region Getters/Setters
-        #endregion
+            Station.CollClasse.Add(this);
 
-        #region Methodes
-        #endregion
+            #endregion
+
+            #region Getters/Setters
+            #endregion
+
+            #region Methodes
+            #endregion
+        }
     }
 }

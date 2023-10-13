@@ -9,7 +9,7 @@ namespace Cas_Crab_DS2.Modeles
     internal class Visite
     {
         #region Attributs
-        public static List<TypeBorne> CollClasse = new List<TypeBorne>();
+        public static List<Visite> CollClasse = new List<Visite>();
 
         private string _Etat;
         private TimeSpan _DureeTotale;
@@ -17,12 +17,20 @@ namespace Cas_Crab_DS2.Modeles
         #endregion
 
         #region Constructeur
-        #endregion
+        public Visite(string Etat, TimeSpan DureeTotal)
+        {
+            _Etat = Etat;
+            _DureeTotale = DureeTotal;
 
-        #region Getters/Setters
-        #endregion
+            Visite.CollClasse.Add(this);
 
-        #region Methodes
-        #endregion
+            #endregion
+
+            #region Getters/Setters
+            #endregion
+
+            #region Methodes
+            #endregion
+        }
     }
 }

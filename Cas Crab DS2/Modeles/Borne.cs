@@ -11,19 +11,28 @@ namespace Cas_Crab_DS2.Modeles
         #region Attributs
         public static List<Borne> CollClasse = new List<Borne>();
 
-        private int _idBorne;
-        private DateTime _DateDeniereRevesion;
-        private int _indiceCompteurUnites;
+        private int _IdBorne;
+        private DateTime _DateDerniereRevesion;
+        private int _IndiceCompteurUnites;
 
         #endregion
 
         #region Constructeur
-        #endregion
+        public Borne(int IdBorne, DateTime DateDerniereRevision, int IndiceCompteurUnites)
+        {
+            _IdBorne = IdBorne;
+            _DateDerniereRevesion = DateDerniereRevision;
+            _IndiceCompteurUnites = IndiceCompteurUnites;
 
-        #region Getters/Setters
-        #endregion
+            Borne.CollClasse.Add(this);
 
-        #region Methodes
-        #endregion
+            #endregion
+
+            #region Getters/Setters
+            #endregion
+
+            #region Methodes
+            #endregion
+        }
     }
 }

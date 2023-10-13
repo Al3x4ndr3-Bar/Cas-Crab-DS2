@@ -18,12 +18,20 @@ namespace Cas_Crab_DS2.Modeles
         #endregion
 
         #region Constructeur
-        #endregion
+        public Technicien(int Matricule, string Nom, string PreNom)
+        {
+            _Matricule = Matricule;
+            _Nom = Nom;
+            _PreNom = PreNom;
 
-        #region Getters/Setters
-        #endregion
+            Technicien.CollClasse.Add(this);
+            #endregion
 
-        #region Methodes
-        #endregion
+            #region Getters/Setters
+            #endregion
+
+            #region Methodes
+            #endregion
+        }
     }
 }
