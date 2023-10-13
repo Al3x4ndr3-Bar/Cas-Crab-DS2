@@ -37,4 +37,3 @@ namespace Cas_Crab_DS2.Modeles
             #endregion
         }
     }
-}
