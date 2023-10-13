@@ -9,8 +9,6 @@ namespace Cas_Crab_DS2.Modeles
     internal class Maintenance
     {
         #region Attributs
-        public static List<Maintenance> CollClasse = new List<Maintenance>();
-
         #endregion
 
         #region Constructeur
