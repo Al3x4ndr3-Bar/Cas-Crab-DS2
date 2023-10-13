@@ -6,25 +6,22 @@ using System.Threading.Tasks;
 
 namespace Cas_Crab_DS2.Modeles
 {
-    internal class Technicien
+    public class Technicien
     {
         #region Attributs
-        public static List<Technicien> CollClasse = new List<Technicien>();
 
         private int _Matricule;
         private string _Nom;
-        private string _PreNom;
-        List<Visite> _LesVisites;
+        private string _Prenom;
 
         #endregion
 
-        #region Constructeur
-        public Technicien(int Matricule, string Nom, string PreNom)
+        #region Constructeurs
+
         {
             _Matricule = Matricule;
             _Nom = Nom;
-            _PreNom = PreNom;
-            _LesVisites = new List<Visite>();
+            _Prenom = Prenom;
 
             Technicien.CollClasse.Add(this);
         }
@@ -33,8 +30,7 @@ namespace Cas_Crab_DS2.Modeles
         #region Getters/Setters
         public int Matricule { get => _Matricule; set => _Matricule = value; }
         public string Nom { get => _Nom; set => _Nom = value; }
-        public string PreNom { get => _PreNom; set => _PreNom = value; }
-        public List<Visite> LesVisites { get => _LesVisites; }
+        public string Prenom { get => _Prenom; set => _Prenom = value; }
 
         #endregion
 

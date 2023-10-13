@@ -12,15 +12,15 @@ namespace Cas_Crab_DS2
         #region Attributs
         public static List<Station> CollClasse = new List<Station>();
 
-        private int _idStation;
-        private String _LibelleEmplacement;
+        private int _IdStation;
+        private string _LibelleEmplacement;
 
         #endregion
 
         #region Constructeur
         public Station(int IdStation, string LibelleEmplacement)
         {
-            _idStation = IdStation;
+            _IdStation = IdStation;
             _LibelleEmplacement = LibelleEmplacement;
 
             Station.CollClasse.Add(this);
