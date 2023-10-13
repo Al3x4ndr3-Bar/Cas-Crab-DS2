@@ -27,13 +27,14 @@ namespace Cas_Crab_DS2.Modeles
             _NbUnitesEntreRevision = NbUnitesEntreRevision;
 
             TypeBorne.CollClasse.Add(this);
-
-            #endregion
-
-            #region Getters/Setters
-            #endregion
-
-            #region Methodes
-            #endregion
         }
+
+        #endregion
+
+        #region Getters/Setters
+        #endregion
+
+        #region Methodes
+        #endregion
     }
+}

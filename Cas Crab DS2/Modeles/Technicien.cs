@@ -25,13 +25,13 @@ namespace Cas_Crab_DS2.Modeles
             _PreNom = PreNom;
 
             Technicien.CollClasse.Add(this);
-            #endregion
-
-            #region Getters/Setters
-            #endregion
-
-            #region Methodes
-            #endregion
         }
+        #endregion
+
+        #region Getters/Setters
+        #endregion
+
+        #region Methodes
+        #endregion
     }
 }

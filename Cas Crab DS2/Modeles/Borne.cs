@@ -25,14 +25,14 @@ namespace Cas_Crab_DS2.Modeles
             _IndiceCompteurUnites = IndiceCompteurUnites;
 
             Borne.CollClasse.Add(this);
-
-            #endregion
-
-            #region Getters/Setters
-            #endregion
-
-            #region Methodes
-            #endregion
         }
+
+        #endregion
+
+        #region Getters/Setters
+        #endregion
+
+        #region Methodes
+        #endregion
     }
 }

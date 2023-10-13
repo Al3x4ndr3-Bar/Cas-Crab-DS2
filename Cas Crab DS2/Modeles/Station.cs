@@ -24,14 +24,14 @@ namespace Cas_Crab_DS2
             _LibelleEmplacement = LibelleEmplacement;
 
             Station.CollClasse.Add(this);
-
-            #endregion
-
-            #region Getters/Setters
-            #endregion
-
-            #region Methodes
-            #endregion
         }
+
+        #endregion
+
+        #region Getters/Setters
+        #endregion
+
+        #region Methodes
+        #endregion
     }
 }
