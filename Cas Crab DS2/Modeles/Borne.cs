@@ -34,12 +34,27 @@ namespace Cas_Crab_DS2.Modeles
         #region Getters/Setters
         public int IdBorne { get => _IdBorne; set => _IdBorne = value; }
         public DateTime DureeTotale { get => _DateDerniereRevesion; set => _DateDerniereRevesion = value; }
-        public int IndiceCompteurUnites { get => _IndiceCompteurUnites; set => _IndiceCompteurUnites =  value; }
+        public int IndiceCompteurUnites { get => _IndiceCompteurUnites; set => _IndiceCompteurUnites = value; }
         public TypeBorne LeType { get => _LeType; set => _LeType = value; }
 
         #endregion
 
         #region Methodes
+        public TypeBorne GetMonTypeBorne()
+        {
+            TypeBorne resultat = null;
+
+            resultat = this.LeType;
+
+            return resultat;
+        }
+
+        public int GetCodeTypeBorne()
+        {
+            int resultat = 0;
+            resultat = this.LeType.CodeTypeBorne;
+            return resultat;
+        }
         #endregion
     }
 }
